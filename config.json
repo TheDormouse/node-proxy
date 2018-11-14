@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "route": "/app1",
+        "address": "http://localhost:3040/"
+      },
+      {
+        "route": "/app2",
+        "address": "http://localhost:3000"
+      }
+    ]
+  }

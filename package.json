@@ -1,0 +1,32 @@
+{
+  "name": "node-proxy",
+  "version": "1.0.0",
+  "description": "Host multiple node.js apps through PM2",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDormouse/node-proxy.git"
+  },
+  "keywords": [
+    "node",
+    "proxy",
+    "pm2",
+    "express"
+  ],
+  "author": "Ben Martinez-Cain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDormouse/node-proxy/issues"
+  },
+  "homepage": "https://github.com/TheDormouse/node-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "http-proxy-middleware": "^0.19.0",
+    "https": "^1.0.0"
+  }
+}
