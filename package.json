@@ -4,7 +4,9 @@
   "description": "Host multiple node.js apps through PM2",
   "main": "proxy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
     "fs": "0.0.1-security",
     "http": "0.0.0",
     "http-proxy-middleware": "^0.19.1",
-    "https": "^1.0.0"
-  }
+    "https": "^1.0.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
